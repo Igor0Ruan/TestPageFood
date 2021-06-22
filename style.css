@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    color: #002140;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+ul a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.home{
+    text-decoration: 5px underline;
+}
+
+
+ul a:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+    text-decoration: 5px underline;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9em;
+    height: 3em;
+    background-color: #FF783E;
+    font-weight: bold;
+    color: white;
+    border-radius: 100px;
+    font-size: 15px;
+}
+
+.login:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.logoname {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 6.65vh;
+}
+
+.name {
+    font-size: 24px;
+    padding-left: 0.62em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    background-color: white;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2.5em;
+    padding: 7em;
+}
+
+body {
+    overflow: hidden;
+}
+
+main {
+    background-color: #FED32F;
+    height: 78vh;
+    margin: 3em;
+    margin-top: 0;
+    border-radius: 50px;
+}
+
+.food {
+    display: flex;
+    width: 42.5%;
+    position: relative;
+    left: 55%;
+    z-index: 1;
+}
+
+.circle{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(162deg) brightness(101%) contrast(104%);
+    width: 35.81vw;
+    left: 74.5%;
+    top: 53.75%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.leaf {
+    display: flex;
+    width: 10%;
+    position: absolute;
+    left: 90%;
+}
+
+.mushroom {
+    display: flex;
+    width: 8%;
+    top: 80%;
+    position: absolute;
+    left: 53%;
+}
+
+h1 {
+    position: relative;
+    bottom: 29.69rem;
+    left: 3.75rem;
+    font-weight: 700;
+    font-size: 50px;
+    width: 50%;
+}
+
+p {
+    position: relative;
+    bottom: 28.12rem;
+    left: 3.75rem;
+    font-weight: bold;
+    font-size: 20px;
+    width: 50%;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    position: absolute;
+    bottom: 23.44rem;
+    left: 3.7rem;
+    width: 47.5%;
+    height: 7vh;
+    color: black;
+    background: white;
+    border: 1px solid rgba(255, 255, 2555, 0.5);
+    outline: none;
+    border-radius: 100px;
+    padding-left: 1.56rem;
+}
+
+.searchButton{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9em;
+    height: 3em;
+    background-color: #FF783E;
+    font-weight: bold;
+    color: white;
+    border-radius: 100px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 23.59rem;
+    left: 37.8rem;
+}
+
+.searchButton:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+}
